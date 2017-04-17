@@ -5,13 +5,15 @@ require 'devcamp_morgan_view_tool/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "devcamp_morgan_view_tool"
-  spec.version       = DevcampMorganViewTool::VERSION
+  spec.version       = '0.1.0'
+  spec.license       = "MIT"
   spec.authors       = ["morgan"]
   spec.email         = ["rabrosimov@gmail.com"]
 
-  spec.summary       = %q{Various view specific methods for application I use.}
-  spec.description   = %q{Provides generated HTML data for RAils applications.}
-  spec.homepage      = "https://github.com/morgan2013/devcamp-portfolio"
+  spec.summary       = %q{Various specific view specific methods for application I use.}
+  spec.description   = %q{Provides applications generated HTML data for RAILs applications}
+  spec.homepage      = 'https://github.com/morgan2013/devcamp-portfolio'
+
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
